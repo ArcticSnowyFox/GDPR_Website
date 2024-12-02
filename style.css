@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    --mainDarkBlue: #050C9C;
+    --mainMainBlue: #3572EF;
+    --mainLightBlue: #3ABEF9;
+    --mainHighlightBlue: #A7E6FF;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 1000vh;
+}
+
+.navbar-body {
+    width: 100vw;
+    height: 7vh;
+    background-color: var(--mainMainBlue);
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.navbar-item {
+    width: min-content;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 100%;
+    background-color: var(--mainLightBlue);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 100ms;
+}
+
+.navbar-item:hover {
+    background-color: var(--mainHighlightBlue);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 2vw;
+    font-size: 1.7rem;
+    z-index: 10;
+}
+
+.spacer {
+    width: 100vw;
+    height: 7vh;
+}
