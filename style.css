@@ -51,8 +51,22 @@ body {
     background-color: var(--mainHighlightBlue);
     color: black;
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 2vw;
-    font-size: 1.7rem;
+    text-decoration: underline;
     z-index: 10;
+}
+
+.icon {
+    height: 6vh;
+    right: 0.5vh;
+    margin-top: 0.5vh;
+    position: fixed;
+    transition: ease-in-out 100ms;
+}
+
+.icon:hover {
+    height: 7vh;
+    right: 0vh;
+    margin-top: 0vh;
 }
 
 .spacer {
