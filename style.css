@@ -107,11 +107,13 @@ body {
     }
 
     .navbar-item {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         border-radius: 4vw;
-        margin-right: 1vw;
-        padding-left: 1vh;
-        padding-right: 1vh;
+        margin-left: 1vw;
+        padding-left: 1.2vh;
+        padding-right: 1.2vh;
+        height: 90%;
+        align-self: center;
     }
 
     .heading {
