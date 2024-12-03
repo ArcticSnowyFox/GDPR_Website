@@ -86,7 +86,6 @@ body {
 
 .heading {
     font-size: 6rem;
-    margin-bottom: 1vh;
 }
 
 .text {
@@ -108,7 +107,7 @@ body {
 
     .navbar-item {
         font-size: 1.3rem;
-        border-radius: 4vw;
+        border-radius: 2vh;
         margin-left: 1vw;
         padding-left: 1.2vh;
         padding-right: 1.2vh;
