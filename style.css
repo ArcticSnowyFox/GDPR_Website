@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
     scrollbar-width: none;
     --mainDarkBlue: #050C9C;
     --mainMainBlue: #3572EF;
@@ -82,17 +82,20 @@ body {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    transition: ease-in-out 100ms;
 }
 
 .heading {
     font-size: 6rem;
     margin-bottom: 1vh;
+    transition: ease-in-out 100ms;
 }
 
 .text {
     font-size: 1.4rem;
     text-align:center;
     margin-bottom: 2.5vh;
+    transition: ease-in-out 100ms;
 }
 
 .bold{
